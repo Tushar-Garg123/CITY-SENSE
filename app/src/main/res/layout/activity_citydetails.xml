@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/Theme.Material3.Light.NoActionBar"
+    android:orientation="vertical"
+    android:background="@drawable/details"
+    tools:context=".CitydetailsActivity">
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10sp"
+        android:rowCount="5"
+        android:columnCount="2"
+        android:layout_gravity="center"
+        >
+
+    <ImageButton
+        android:id="@+id/btnHistory"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:elevation="10dp"
+        android:layout_marginTop="12dp"
+        android:layout_gravity="center"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@drawable/histicon" />
+
+    <ImageButton
+            android:id="@+id/btnHotelrooms"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+            android:background="@drawable/hticon"/>
+
+    <ImageButton
+        android:id="@+id/btnRestaurant"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@drawable/resticon" />
+
+    <ImageButton
+        android:id="@+id/btnFamousplaces"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@drawable/famicon"/>
+
+    <ImageButton
+        android:id="@+id/btnBusstation"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="5dp"
+        android:layout_gravity="center"
+        android:layout_columnWeight="1"
+        android:layout_rowWeight="1"
+        android:background="@drawable/busicon" />
+        <ImageButton
+            android:id="@+id/nearby"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="5dp"
+            android:layout_gravity="center"
+            android:layout_columnWeight="1"
+            android:layout_rowWeight="1"
+            android:background="@drawable/nearby" />
+    </GridLayout>
+
+</LinearLayout>
